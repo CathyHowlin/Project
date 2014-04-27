@@ -4,7 +4,7 @@
 
 # Home page
 GET     /                           controllers.Application.index()
-GET     /app                        controllers.Application.index()
+GET     /app                        controllers.ApplicationForm.index()
 GET     /tc                         controllers.Application.index()
 GET     /login                      controllers.Application.index()
 GET     /admin_list                 controllers.Application.index()

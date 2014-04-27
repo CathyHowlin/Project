@@ -2,14 +2,24 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/Users/padraig/Desktop/Cathy's Project/Project/project/app/controllers/ApplicationForm.java)[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mModified external sources: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/padraig/Desktop/Cathy's Project/Project/project/app/controllers/ApplicationForm.java)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/padraig/Desktop/Cathy's Project/Project/project/app/controllers/ApplicationForm.java)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to /Users/padraig/Desktop/Cathy's Project/Project/project/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/var/folders/0g/lvt3h8cx7jqgr6g7gb100p400000gs/T/sbt_c057e9d9/argfile[0m
+[0m[[31merror[0m] [0m/Users/padraig/Desktop/Cathy's Project/Project/project/app/controllers/ApplicationForm.java:11: error: package applcationForm does not exist[0m
+[0m[[31merror[0m] [0m		return ok(applcationForm.index.render("Your new application is ready."));[0m
+[0m[[31merror[0m] [0m		                        ^[0m
+[0m[[31merror[0m] [0m1 error[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 1[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) javac returned nonzero exit code[0m
