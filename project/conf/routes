@@ -4,6 +4,12 @@
 
 # Home page
 GET     /                           controllers.Application.index()
+GET     /app                        controllers.Application.index()
+GET     /tc                         controllers.Application.index()
+GET     /login                      controllers.Application.index()
+GET     /admin_list                 controllers.Application.index()
+GET     /admin_app                  controllers.Application.index()
+
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
